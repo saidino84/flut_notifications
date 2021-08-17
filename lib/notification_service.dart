@@ -8,6 +8,7 @@ class AppNotificationService {
       AppNotificationService._internal();
 
   factory AppNotificationService() {
+    // tz.initializeTimeZones();
     return _notificationService;
   }
 
@@ -18,6 +19,7 @@ class AppNotificationService {
   AppNotificationService._internal();
 
   Future<void> init_notification_plugin() async {
+    tz.initializeTimeZones();
     final AndroidInitializationSettings initilizationsAndroidSetting =
         AndroidInitializationSettings('@mipmap/ic_launcher');
 

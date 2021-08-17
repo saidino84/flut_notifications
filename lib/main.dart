@@ -70,12 +70,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
 // IMPORTANCE: initializeTimeZones
-  @override
-  void initState() {
-    // TODO: implement initState
-    tz.initializeTimeZones();
-    super.initState();
-  }
+  // @override
+  // void initState() {
+  //   // TODO: implement initState
+  //   tz.initializeTimeZones();
+  //   super.initState();
+  // }
 
   @override
   Widget build(BuildContext context) {
